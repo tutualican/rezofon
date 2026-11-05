@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Rezofon</string>
+    <string name="guard_channel_name">Ses Hattı Bekçisi</string>
+    <string name="guard_channel_desc">Hoparlör otomatik kapanmasını engelleyen sessiz ses hattı</string>
+</resources>

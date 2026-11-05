@@ -1,0 +1,25 @@
+# Build outputs
+android/build/
+android/app/build/
+android/.gradle/
+android/local.properties
+android/captures/
+*.apk
+*.aab
+*.iml
+.idea/
+.gradle/
+
+# Desktop build artefacts
+desktop/dist/*.exe
+desktop/dist/*.pdb
+desktop/assets/*.ico
+desktop/obj/
+
+# OS noise
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Local state
+*.log
