@@ -120,6 +120,20 @@ Android ve Windows aynı biçimi okur; masaüstünde tasarlayıp telefona yapı�
 
 Ağ bağlantısı yok, analitik yok, reklam yok, veri toplama yok. Profiller yalnızca cihazda.
 
+## Doğrulama durumu
+
+| Ne | Nasıl | Sonuç |
+| --- | --- | --- |
+| Windows derlemesi + arayüz | `Rezofon.exe` çalıştırıldı, beş ekran görüntülendi | çalışıyor (`docs/`) |
+| Equalizer APO uygula/kaldır | gerçek `config.txt` üzerinde, SHA-256 karşılaştırmalı | blok eklendi, kaldırıldı, dosya bayt bayt aynı |
+| Core Audio uç noktaları | `Headphones (Grundig Jam+)` canlı okundu | doğru cihaz, aktif/pasif durumu |
+| Android derlemesi | `assembleDebug` (AGP 8.13.1, Kotlin 2.3.21) | BUILD SUCCESSFUL, APK üretildi |
+| Android çalışma zamanı | emülatör | **yapılamadı** — bu makinede sanallaştırma (WHPX/Hyper-V) kapalı |
+| JAM+ bağlantısı | Windows Bluetooth, A2DP + HFP + AVRCP | eşleşti ve ses hattı açıldı |
+
+Android tarafı derleme düzeyinde doğrulandı; `audiofx` davranışı cihaz üreticisine göre değiştiği
+için ilk açılışta Atölye ekranındaki teşhis satırlarına bakın.
+
 ## Lisans
 
 MIT — bkz. [LICENSE](LICENSE).
