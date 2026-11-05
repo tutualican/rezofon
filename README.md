@@ -8,6 +8,8 @@ Android (Kotlin + Jetpack Compose) ve Windows (C# / WinForms) olarak iki nativ u
 
 > Rezofon · rezonans + fon · `studio.rezofon.app`
 
+![Rezofon ekolayzer ekranı](docs/desktop-eq.png)
+
 ---
 
 ## Neden var?
@@ -94,6 +96,10 @@ Bento grid + Material 3 Expressive, "Expressive Spatial Spring" hareket dili: he
 fiziğiyle tepki verir, sayfa geçişleri yaylanır, splash 1 saniyenin altında biter.
 Koyu palet: `#08090B` zemin, lime `#C8FF3D`, amber `#FFB03A`, cyan `#7BE8DC`, violet `#BCA8FF`.
 Space Grotesk başlık, Manrope gövde.
+
+| Ana ekran | Bas | Cihaz | Atölye |
+| --- | --- | --- | --- |
+| ![Ana ekran](docs/desktop-home.png) | ![Bas](docs/desktop-bass.png) | ![Cihaz](docs/desktop-device.png) | ![Atölye](docs/desktop-workshop.png) |
 
 ## Profil formatı
 
