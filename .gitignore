@@ -12,6 +12,7 @@ android/captures/
 
 # Desktop build artefacts
 desktop/dist/
+desktop/assets/*.ico
 
 # OS noise
 Thumbs.db
