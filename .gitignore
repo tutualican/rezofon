@@ -11,10 +11,7 @@ android/captures/
 .gradle/
 
 # Desktop build artefacts
-desktop/dist/*.exe
-desktop/dist/*.pdb
-desktop/assets/*.ico
-desktop/obj/
+desktop/dist/
 
 # OS noise
 Thumbs.db
